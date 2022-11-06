@@ -61,9 +61,13 @@ margin-top: 3%;
    font-size: 20px;
    text-decoration: none;
  }
+.text{
+  height: 40px;
+}
 
-
-
+label{
+    cursor: pointer;
+}
 
     .select {
       position: relative;
@@ -78,6 +82,48 @@ margin-top: 3%;
       padding: 0 .5em;
       cursor: pointer;
     }
+    input[type=file]::file-selector-button {
+  margin-right: 20px;
+  border: none;
+  background: #34DF44;
+  padding: 10px 20px;
+  border-radius: 10px;
+  color: #fff;
+  cursor: pointer;
+  transition: background .2s ease-in-out;
+}
+    .drop-container {
+  position: relative;
+  display: flex;
+  gap: 10px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 200px;
+  padding: 20px;
+  border-radius: 10px;
+  border: 2px dashed #555;
+  color: #444;
+  cursor: pointer;
+  transition: background .2s ease-in-out, border .2s ease-in-out;
+}
+
+.drop-container:hover {
+  background: #eee;
+  border-color: #111;
+}
+
+.drop-container:hover .drop-title {
+  color: #222;
+}
+
+.drop-title {
+  color: #444;
+  font-size: 20px;
+  font-weight: bold;
+  text-align: center;
+  transition: color .2s ease-in-out;
+}
 
    .date{
      float: right;
