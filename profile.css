@@ -1,0 +1,132 @@
+@charset "ISO-8859-1";
+.popup {
+  margin: 70px auto;
+  padding: 20px;
+  background: #fff;
+  border-radius: 5px;
+  width: 50%;
+  height:auto;
+  position: relative;
+  transition: all 5s ease-in-out;
+   
+}
+/*
+.popup h2 {
+  margin-top: 0;
+  color: #333;
+  font-family: Tahoma, Arial, sans-serif;
+}*/
+.popup .close {
+  position: absolute;
+  top: 20px;
+  right: 30px;
+  transition: all 200ms;
+  font-size: 30px;
+  font-weight: bold;
+  text-decoration: none;
+  color: #333;
+}
+.popup .close:hover {
+  color: #06D85F;
+}
+.popup .content {
+  max-height: 40%;
+  overflow: auto;
+}
+body{
+  background: linear-gradient(rgba(14, 183, 76, 0.366), rgb(25, 154, 64)),url('gallfort.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover; 
+}
+a{
+  text-decoration: none;
+  color: whitesmoke;
+}
+/*
+a:hover{
+  color: #333;
+}*/
+.det{
+    /*padding: 2px;*/
+    background-color:rgb(255, 255, 255);
+    color: #333;
+    overflow: hidden;
+}
+label{
+    margin-left: 10px;
+    display: block;
+    margin-bottom: 6px;/*0.5 rem*/
+    font-size: 1.5rem;
+    
+}
+form input[type="text"] , form input[type="email"],form input[type="password"],select[id="utyp"]{
+    display: block;
+    width:97%;
+    box-sizing: border-box;
+    margin: 10px;
+    border: 1px solid #adb1ad;
+    border-radius: 5px;
+    padding: 10px;
+    /*margin-bottom: 1.25rem;*/
+    font-size: 1.5rem;
+    background-color: #e2dfdf;
+    /*font-family:Georgia, 'Times New Roman', Times, serif;*/
+    font-family:cursive;
+    text-align: center;
+}
+
+.delt {
+  width: 100%;
+  /*margin-top: 15px;*/
+  border: none;
+  background-color: #06D85F;
+  color:white;
+  padding: 5px;
+  border-radius: 20px;
+  font-size: 1.2rem;
+  font-weight: 700;
+}
+form input[type="submit"]{
+  color: #333;
+  cursor: pointer;
+}
+.delt{
+  display: block;
+  width: 100%;
+  border: none;
+  background-color: #06D85F;
+  color:white;
+  padding: 5px;
+  border-radius: 20px;
+  font-size: 1.2rem;
+  font-weight: 700;
+}
+.delt:hover{
+  color: #333;
+  cursor: pointer;
+}
+
+.t1{
+	font-size:2.4rem;
+  border:1;
+  text-align:center;
+  width:100%;
+}
+
+.bckh{
+  float:right;
+  display: block;
+  border: none;
+  background-color: #06D85F;
+  color:white;
+  padding: 5px;
+  border-radius: 20px;
+  font-size: 1.1rem;
+  font-weight: 700;
+}
+.bckh:hover{
+  color: #333;
+  cursor: pointer;
+}

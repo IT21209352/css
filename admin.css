@@ -1,0 +1,96 @@
+body{
+  background-color: #3d3d3b;
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 20px;
+  background-position: center center;
+background-repeat: no-repeat;
+background-attachment: fixed;
+background-size: cover;
+}
+.data{
+  background-color: white;
+  border-radius: 20px;
+  margin:5% 10% 10% 10%;
+   padding: 0 5% 5% 5%;
+   background: rgba(255, 255, 255, 0.6);
+
+}
+.logo{
+  font-family: 'Dancing Script',cursive;
+  font-size: 40px;
+  margin: 25px ;
+  }
+  .line{
+    border: none;
+    width: 30%;
+    height: 3px;
+    background-color: black;
+
+  }
+  button  {
+     background-color: #34DF44;
+margin-left: 12%;
+margin-top: 8%;
+     border: none;
+     border-radius: 5px;
+     height: 60px;
+     width: 150px;
+     font-size: 14px;
+   }
+button a{
+  color: white;
+  font-size: 20px;
+  text-decoration: none;
+}
+button:hover{
+   background-color: #55CA00;
+}
+.button1{
+   background-color: #34DF44;
+margin-left: 1%;
+margin-top: 3%;
+   border: none;
+   border-radius: 5px;
+   height: 50px;
+   width: 150px;
+   font-size: 20px;
+   font-family: 'Josefin Sans', sans-serif;
+ }
+ .button1 a{
+   color: white;
+   font-size: 20px;
+   text-decoration: none;
+ }
+
+
+
+
+    .select {
+      position: relative;
+      display: flex;
+      width: 20em;
+      height: 3em;
+      line-height: 3;
+      background: #b0e89e;
+      overflow: hidden;
+      border-radius: .25em;
+      flex: 1;
+      padding: 0 .5em;
+      cursor: pointer;
+    }
+
+   .date{
+     float: right;
+     padding: 10;
+     color: #403f3d;
+   }
+
+   .name{
+     font-size: 20px;
+   }
+   table{
+
+   }
+   img{
+     border-radius: 10px;
+   }
