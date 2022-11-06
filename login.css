@@ -47,8 +47,8 @@ a:hover{
     align-items:center;
 }
 .split-left{
-    background: linear-gradient(rgba(14, 183, 76, 0.366), rgb(15, 208, 73)),url('C:\Users\USER\Desktop\travel_expo\tour\src\main\webapp\pictures\9arch.jpg');
-    background-image:url('C:\Users\USER\Desktop\travel_expo\tour\src\main\webapp\pictures\9arch.jpg');
+    background: linear-gradient(rgba(14, 183, 76, 0.366), rgb(15, 208, 73)),url('https://it21209352.github.io/css/pictures/9arch.jpg');
+    background-image:url('https://it21209352.github.io/css/pictures/9arch.jpg');
     background-size: cover;
 }
 .split-left .cpy{
